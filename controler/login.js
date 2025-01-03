@@ -1,5 +1,5 @@
 const userModel = require("../model/user");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const catchAsync = require("../middlewares/errorHandiling");
 const dotenv = require("dotenv");
 const jwt = require("jsonwebtoken");
